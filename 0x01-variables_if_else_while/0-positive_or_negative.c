@@ -1,5 +1,5 @@
 #include <stido.h>
-int void ()
+int void (){
 	int x = 1 ;
 	int y = -1 ;
 	int z = 0 ;
@@ -13,3 +13,4 @@ int void ()
          else(z==0){
 		 printf("is zero");
 	 }
+}
