@@ -1,32 +1,29 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Prints a text according number
- *
- * Return: Always (Success)
- */
-int main(void)
+  * main - Prints a hexadecimal string
+  *
+  * Return: Always (Success)
+  */
+int main (void)
 {
-    int x;
-    char latter ;
 
- for (x = 0; x <= 9 ;x++ )
- {
-  printf("%d",x);
- }
- for(latter ='a';latter <= 'f';latter++)
- {
-     printf("%c",latter);
- }
+   char Letter;
 
+   int Num;
 
+   for( Num = '0' ; Num <= '9' ; Num++ )
+    {
+        putchar(Num);
+    }
 
+    for( Letter = 'a' ; Letter <= 'f' ; Letter++ )
+     {  
+        putchar(Letter);
+     }
 
+putchar('\n');
 
-
-	return (0);
-
+ return(0);
 }
 
