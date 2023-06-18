@@ -1,23 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - Prints a text according number
- *
- * Return: Always (Success)
- */
+  * main - Prints a serie of numbers with commas
+  *
+  * Return: Always (Success);
+  */
 int main(void)
 {
-    int x = 0 ;
-    int y = 10 ;
+	int c;
 
-    while (x < y)
-     {
+	for (c = '0'; c <= '9'; c++)
+	{
+		putchar(c);
 
- printf("%d ,",x);
- x++;
-     }
+		if (c != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
 
+	putchar('\n');
 
 	return (0);
 }
-
