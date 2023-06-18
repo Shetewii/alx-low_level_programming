@@ -1,5 +1,11 @@
 #include <stdio.h>
-int main (){
+/**
+ * main - Prints the alphabetic
+ *
+ * Return: Always (Success)
+ */
+
+int main (void){
 
 char letter;
 
@@ -11,6 +17,6 @@ for(letter = 'a' ; letter <= 'z'; letter++ )
     putchar('\n');
 }
 }
-
+return(0);
 }
 
