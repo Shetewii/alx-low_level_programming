@@ -1,22 +1,18 @@
 #include <stdio.h>
+
 /**
  * main - Prints the alphabetic
  *
  * Return: Always (Success)
  */
+int main(void)
+{
+	char c;
 
-int main (void){
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
 
-char letter;
-
-for(letter = 'a' ; letter <= 'z'; letter++ )
-
-    putchar(letter);
-    putchar('\n');
-
-return(0);
+	putchar('\n');
+	return (0);
 }
-
-
-
 
