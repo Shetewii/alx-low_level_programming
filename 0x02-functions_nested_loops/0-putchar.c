@@ -17,5 +17,5 @@ printf("a");
 printf("r");
 printf("\n");
 
-return(0);
+return (0);
 }
