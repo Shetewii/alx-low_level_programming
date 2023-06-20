@@ -4,8 +4,10 @@
 *
 * Return: Always 0 (Success).
 *
+*
 */
-int main(void){
+int main(void)
+{
 
 printf("_");
 printf("p");
@@ -18,7 +20,6 @@ printf("r");
 printf("\n");
 
 return(0);
-
 }
 
 
