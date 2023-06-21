@@ -11,9 +11,9 @@ int  letter;
 for(letter = 'a'; letter <= 'z'; letter++)
 {
 
-	putchar(letter);
+	_putchar(letter);
 }
-        putchar('\n');
+       _ putchar('\n');
 
 return(0);
 }
