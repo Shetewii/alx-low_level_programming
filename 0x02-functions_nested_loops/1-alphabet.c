@@ -4,9 +4,9 @@
 *
 * Return : Always 0 (Success)
 **/
-int main (void){
+void print_alphabet(void){
 
-int  letter;
+char  letter;
 
 for(letter = 'a'; letter <= 'z'; letter++)
 
@@ -15,5 +15,4 @@ for(letter = 'a'; letter <= 'z'; letter++)
 
        _putchar('\n');
 
-return(0);
 }
